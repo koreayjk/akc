@@ -1258,42 +1258,16 @@ footer {
   <div class="sl reveal">
     <div class="sl-eye">Schedule · 2026</div>
     <div class="sl-ttl">2026<br>캠프<br>일정</div>
-    <p class="sl-note">청소년 캠프는 1·2·3차, 청년 캠프는 1차로 운영됩니다.<br>청년은 세부 일정표, 청소년은 큰 틀 일정으로 안내드리며 세부 일정은 추후 공개됩니다.</p>
+    <p class="sl-note">청소년 캠프는 1·2·3차, 청년 캠프는 1차로 운영됩니다.<br>세부 시간은 현장 상황에 따라 조정될 수 있습니다.</p>
   </div>
   <div class="reveal">
-    <div class="sr-tabs">
-      <div class="sr-tab on" onclick="switchTab(this,'p1')">청소년 1·2·3차</div>
-      <div class="sr-tab" onclick="switchTab(this,'p2')">청년 1차</div>
+    <div class="sched-imgwrap">
+      <span class="sched-ph">일정표 이미지(schedule.png)를<br>akc 폴더에 넣어주세요</span>
+      <img class="sched-img" src="schedule.png" alt="청소년·청년 캠프 일정표" onerror="this.style.display='none';this.previousElementSibling.style.display='flex';">
     </div>
-
-    <!-- 청소년: 세부 일정 미확정 → 큰 틀 일정 -->
-    <div class="sr-panel on" id="p1">
-      <div class="day-grp"><div class="day-ttl">DAY 1 · 첫째날</div>
-        <div class="sched-ln k"><div class="d"></div>오후 — OT · 어라이즈 월드</div>
-        <div class="sched-ln k"><div class="d"></div>저녁 — 복음집회</div>
-      </div>
-      <div class="day-grp"><div class="day-ttl">DAY 2 · 둘째날</div>
-        <div class="sched-ln k"><div class="d"></div>오전 — 어라이즈 소그룹</div>
-        <div class="sched-ln k"><div class="d"></div>오후 — 슈퍼북 뮤지컬 / 월드</div>
-        <div class="sched-ln k"><div class="d"></div>저녁 — 제자집회</div>
-      </div>
-      <div class="day-grp"><div class="day-ttl">DAY 3 · 셋째날</div>
-        <div class="sched-ln k"><div class="d"></div>오전 — 스마트처치 파송예배</div>
-        <div class="sched-ln"><div class="d"></div>단체 사진 · 귀가</div>
-      </div>
-      <div class="day-note">* 청소년 캠프는 큰 틀 일정이며, 세부 일정은 추후 공개됩니다. 현장 상황에 따라 변경될 수 있습니다.</div>
-      <div class="price-box">💛 청소년 참가비 — 70,000원</div>
-    </div>
-
-    <!-- 청년: 세부 일정표 이미지 -->
-    <div class="sr-panel" id="p2">
-      <div class="sched-imgwrap">
-        <span class="sched-ph">청년 세부 일정표(schedule-young.png)를<br>akc 폴더에 넣어주세요</span>
-        <img class="sched-img" src="schedule-young.png" alt="청년 캠프 세부 일정표" onerror="this.style.display='none';this.previousElementSibling.style.display='flex';">
-      </div>
-      <div class="day-note">* 세부 시간은 현장 상황에 따라 조정될 수 있습니다.</div>
-      <div class="price-box">💛 청년 참가비 — 70,000원</div>
-    </div>
+    <div class="day-note">* 청소년 1·2·3차 · 청년 1차 · 세부 시간은 현장 상황에 따라 조정될 수 있습니다.</div>
+    <div class="price-box" style="margin-top:20px;">💛 청소년 참가비 — 70,000원</div>
+    <div class="price-box" style="margin-top:12px;">💛 청년 참가비 — 70,000원</div>
   </div>
 </div>
 
